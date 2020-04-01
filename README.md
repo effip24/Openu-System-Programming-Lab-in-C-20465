@@ -1,4 +1,4 @@
-20465 - System Programming Lab.
+20465 - System Programming Lab
 Mmn11:
   *  this program converts decimal number to binary.
 Mmn12:
