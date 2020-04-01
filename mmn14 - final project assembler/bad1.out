@@ -1,9 +1,0 @@
-bad1.as:2: lable X is ignored
-bad1.as:3: lable Y is ignored
-bad1.as:5: undefiend lable as first operand
-bad1.as:6: undefiend lable as second operand
-bad1.as:7: undefined label as first operand (label X is ignored)
-bad1.as:8: undefined label as first operand (label Y is ignored)
-bad1.as:9: undefined lable 
-bad1.as:10: undefined label (label X is ignored)
-bad1.as:11: undefined label (label Y is ignored)
