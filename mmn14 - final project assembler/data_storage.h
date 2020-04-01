@@ -2,7 +2,7 @@
 mmn14 - two pass assembler model based on imaginary computer
 and imaginary assembly language.
 data_storage.h - header file, contains the functions prototypes of data_storage.c
-@author - Ephraim Phil 205390156.
+@author - Ephraim Phil.
 @version - 10/03/2020. */
 
 #ifndef DATA_STORAGE
