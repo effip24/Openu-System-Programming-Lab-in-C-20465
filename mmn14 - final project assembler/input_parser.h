@@ -2,7 +2,7 @@
 mmn14 - two pass assembler model based on imaginary computer
 and imaginary assembly language.
 input_parser.h - header file, contains the functions prototypes of input_parser.c
-@author - Ephraim Phil 205390156.
+@author - Ephraim Phil.
 @version - 10/03/2020. */
 
 
