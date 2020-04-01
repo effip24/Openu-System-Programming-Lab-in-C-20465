@@ -13,4 +13,6 @@ Mmn23:
  * 
   
 Mmn 14:
- * Final project for the course "Systems Programming Lab" at the Open University.
+ * Final project of the course "Systems Programming Lab" at the Open University.
+  two pass assembler model based on imaginary computer
+and imaginary assembly language.
