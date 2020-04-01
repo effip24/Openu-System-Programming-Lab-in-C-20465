@@ -4,7 +4,7 @@ and imaginary assembly language.
 data_storage.c - this file has all the functions that resposibles
 to build and perform types on the data structures.
 (linked lists, the instruction, data, symbols tables).
-@author - Ephraim Phil 205390156.
+@author - Ephraim Phil.
 @version - 10/03/2020. */
 
 #include <stdio.h>
