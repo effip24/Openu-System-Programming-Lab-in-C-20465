@@ -8,8 +8,9 @@ Mmn12:
  
 Mmn22:
  * calculator, performs algebra set calculations.
+ 
 Mmn23:
-  * 
+ * 
   
 Mmn 14:
  * Final project for the course "Systems Programming Lab" at the Open University.
