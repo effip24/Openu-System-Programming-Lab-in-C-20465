@@ -1,5 +1,0 @@
-bad3.as:14: invalid source operand (register indirect)
-bad3.as:17: invalid characters (int)
-bad3.as:20: invalid characters (42)
-bad3.as:23: invalid characters (*r4)
-bad3.as:26: invalid operand (incomplete indirect *)
