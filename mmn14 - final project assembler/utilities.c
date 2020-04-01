@@ -2,7 +2,7 @@
 mmn14 - two pass assembler model based on imaginary computer
 and imaginary assembly language.
 utilities.c - this file contains utilities functions and additions functions.
-@author - Ephraim Phil 205390156.
+@author - Ephraim Phil.
 @version - 10/03/2020. */
 
 #include <stdio.h>
