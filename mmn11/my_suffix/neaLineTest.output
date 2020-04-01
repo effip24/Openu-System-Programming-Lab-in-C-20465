@@ -1,0 +1,11 @@
+Please enter a charachter then enter a string:
+
+charachter: t
+string: testtit
+result:
+	testtit
+	ttit
+	tit
+	t
+number of suffix: 4
+

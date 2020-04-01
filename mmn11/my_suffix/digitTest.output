@@ -1,0 +1,14 @@
+Please enter a charachter then enter a string:
+
+charachter: 0
+string: a0f0g0t0h0k0k6k8k52k45k0
+result:
+	0f0g0t0h0k0k6k8k52k45k0
+	0g0t0h0k0k6k8k52k45k0
+	0t0h0k0k6k8k52k45k0
+	0h0k0k6k8k52k45k0
+	0k0k6k8k52k45k0
+	0k6k8k52k45k0
+	0
+number of suffix: 7
+

@@ -1,0 +1,131 @@
+*------------------------------------------------------------------------------*
+| 		Set Algebra Calculator program.                                |
+|                                                                              |
+|  * There are 7 stored sets(SETA, SETB, SETC, SETD, SETE, SETF).              |
+|    Each set can store integers from 0 - 127.                                 |
+|                                                                              |
+|  * You can perform set algebra calculation such as:                          |
+|       Union, Intersect, Subtract and Symmetric difference.                   |
+|                                                                              |
+|  * For the program's commands and manual please type --help                  |
+*------------------------------------------------------------------------------*
+
+command> command> print_set SETA
+this set is empty
+ 
+
+command> command> print_set SETB
+this set is empty
+ 
+
+command> command> print_set SETC
+this set is empty
+ 
+
+command> command> print_set SETD
+this set is empty
+ 
+
+command> command> print_set SETE
+this set is empty
+ 
+
+command> command> print_set SETF
+this set is empty
+ 
+
+command> command> read_set SETA, 45, 23, 6, 7, 4, 3, 75 ,45, 34, -1
+
+command> command> print_set SETA
+3 4 6 7 23 34 45 75  
+
+command> command> read_set SETB, 5, 4, 3, 2, 78, 45, 43, -1
+
+command> command> print_set SETB
+2 3 4 5 43 45 78  
+
+command> command> read_set SETC,100,105,101,103,104,-1
+
+command> command> print_set SETC
+100 101 103 104 105  
+
+command> command> read_set SETC,127,0,3,126,127,0,-1
+
+command> command> print_set SETC
+0 3 126 127  
+
+command> command> read_set SETC,-1
+
+command> command> print_set SETC
+this set is empty
+ 
+
+command> command> read_set SETD, -1
+
+command> command> print_set SETD
+this set is empty
+ 
+
+command> command> read_set SETC , 110 , 111, 112 , -1
+
+command> command> print_set SETC
+110 111 112  
+
+command> command> union_set SETA, SETB, SETD
+
+command> command> print_set SETD
+2 3 4 5 6 7 23 34 43 45 75 78  
+
+command> command> intersect_set SETA, SETB, SETE
+
+command> command> print_set SETE
+3 4 45  
+
+command> command> sub_set SETA, SETB, SETF
+
+command> command> print_set SETF
+6 7 23 34 75  
+
+command> command> symdiff_set SETA, SETB, SETF
+
+command> command> print_set SETF
+2 5 6 7 23 34 43 75 78  
+
+command> command> intersect_set SETA, SETC, SETD
+
+command> command> print_set SETD
+this set is empty
+ 
+
+command> command> union_set SETB, SETB, SETE
+
+command> command> print_set SETE
+2 3 4 5 43 45 78  
+
+command> command> intersect_set SETB, SETA, SETB
+
+command> command> print_set SETB
+3 4 45  
+
+command> command> union_set SETA, SETC, SETC
+
+command> command> print_set SETC
+3 4 6 7 23 34 45 75 110 111 112  
+
+command> command> symdiff_set SETC, SETA, SETC
+
+command> command> print_set SETC
+110 111 112  
+
+command> command> sub_set SETC,SETC,SETC
+
+command> command> print_set SETC
+this set is empty
+ 
+
+command> command> union_set SETF , SETC , SETF
+
+command> command> print_set SETF
+2 5 6 7 23 34 43 75 78  
+
+command> 

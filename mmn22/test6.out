@@ -1,0 +1,103 @@
+*------------------------------------------------------------------------------*
+| 		Set Algebra Calculator program.                                |
+|                                                                              |
+|  * There are 7 stored sets(SETA, SETB, SETC, SETD, SETE, SETF).              |
+|    Each set can store integers from 0 - 127.                                 |
+|                                                                              |
+|  * You can perform set algebra calculation such as:                          |
+|       Union, Intersect, Subtract and Symmetric difference.                   |
+|                                                                              |
+|  * For the program's commands and manual please type --help                  |
+*------------------------------------------------------------------------------*
+
+command> command> read_set SETA,1,2,3,-1
+
+command> command> print_set SETA
+1 2 3  
+
+command> command> read_set SETA,2,10000,-1
+ Invalid set member – value out of range (type --help for instrauctions).
+
+command> command> print_set SETA
+1 2 3  
+
+command> command> read_set SETA,,3,-1
+ Multiple consecutive commas (type --help for instrauctions).
+
+command> command> print_set SETA
+1 2 3  
+
+command> command> read_set SETB,1,2,3,4,-5
+ Invalid set member – value out of range (type --help for instrauctions).
+
+command> command> read_set SETB,1,2,3
+ List of set members is not terminated correctly (type --help for instrauctions).
+
+command> command> print_set SETB
+this set is empty
+ 
+
+command> command> read_set SETB,3		,-1
+
+command> command> read_set SETB,		2,3
+ List of set members is not terminated correctly (type --help for instrauctions).
+
+command> command> print_set SETB
+3  
+
+command> command> union_set SETB,	SETA,   SETC
+
+command> command> print_set SETC
+1 2 3  
+
+command> command> read_set SETC, number, -1
+ Invalid set member – not an integer (type --help for instrauctions).
+
+command> command> read_set SETC number,-1
+ Missing comma (type --help for instrauctions).
+
+command> command> read_set SETC 5 -1
+ Missing comma (type --help for instrauctions).
+
+command> command> read_set SETC,1,2,3,4,5,6
+ List of set members is not terminated correctly (type --help for instrauctions).
+
+command> command> read_set SETC,1,2,3,4,5,99999999,-1
+ Invalid set member – value out of range (type --help for instrauctions).
+
+command> command> print_set SETC
+1 2 3  
+
+command> command> sub_set SETA,      SETB,SETC
+
+command> command> print_set SETC
+1 2  
+
+command> command> sub_set seta, SETB,SETC
+ Undefined set name 
+
+command> command> intersect_set SETT,SETF,SETW
+ Undefined set name 
+
+command> command> UNION_set SETA,SETA,SETA
+ Undefined command name
+
+command> command> intersect SETC, SETB, SETD
+ Undefined command name
+
+command> command> print_set SETD
+this set is empty
+ 
+
+command> command> symdiff_set SETD,SETD, SETE
+
+command> command> print_set 		SETE
+this set is empty
+ 
+
+command> command> symdiff_set SETD,SETA,SETE
+
+command> command> print_set SETE
+1 2 3  
+
+command> 

@@ -1,0 +1,3 @@
+bad4.as:8: invalid first operand (positive immediate too high to fit in 12 bits)
+bad4.as:11: invalid second operand (negetive immediate too high to fit in 12 bits)
+bad4.as:14: invalid second operand (negetive immediate too high to fit in 12 bits)

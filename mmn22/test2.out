@@ -1,0 +1,49 @@
+*------------------------------------------------------------------------------*
+| 		Set Algebra Calculator program.                                |
+|                                                                              |
+|  * There are 7 stored sets(SETA, SETB, SETC, SETD, SETE, SETF).              |
+|    Each set can store integers from 0 - 127.                                 |
+|                                                                              |
+|  * You can perform set algebra calculation such as:                          |
+|       Union, Intersect, Subtract and Symmetric difference.                   |
+|                                                                              |
+|  * For the program's commands and manual please type --help                  |
+*------------------------------------------------------------------------------*
+
+command> command> read_set SETA, 1,2,3,3,3,3,-1
+
+command> command> print_set SETA
+1 2 3  
+
+command> command> read_set SETB, 3,3,3,3,4,4,4,5,5,5,-1
+
+command> command> print_set SETB
+3 4 5  
+
+command> command> union_set SETA, SETB, SETC
+
+command> command> print_set SETC
+1 2 3 4 5  
+
+command> command> union_set SETA,SETA,SETD
+
+command> command> print_set SETD
+1 2 3  
+
+command> command> intersect_set SETA,SETB,SETA
+
+command> command> print_set SETA
+3  
+
+command> command> sub_set SETB,SETB,SETB
+
+command> command> print_set SETB
+this set is empty
+ 
+
+command> command> union_set SETD,SETD,SETD
+
+command> command> print_set SETD
+1 2 3  
+
+command> 

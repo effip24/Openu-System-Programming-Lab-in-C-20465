@@ -1,0 +1,15 @@
+Please enter a charachter then enter a string:
+
+charachter: t
+string: atnt btnt ctnt ztnt
+result:
+	tntbtnt ctnt ztnt
+	tbtnt ctnt ztnt
+	tnt ctnt ztnt
+	t ctnt ztnt
+	tnt ztnt
+	t ztnt
+	tnt
+	t
+number of suffix: 8
+

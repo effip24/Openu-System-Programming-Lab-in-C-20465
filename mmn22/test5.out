@@ -1,0 +1,104 @@
+*------------------------------------------------------------------------------*
+| 		Set Algebra Calculator program.                                |
+|                                                                              |
+|  * There are 7 stored sets(SETA, SETB, SETC, SETD, SETE, SETF).              |
+|    Each set can store integers from 0 - 127.                                 |
+|                                                                              |
+|  * You can perform set algebra calculation such as:                          |
+|       Union, Intersect, Subtract and Symmetric difference.                   |
+|                                                                              |
+|  * For the program's commands and manual please type --help                  |
+*------------------------------------------------------------------------------*
+
+command> command> read_set SETG, 3, 6, 5, 4, 4, -1
+ Undefined set name 
+
+command> command> union_set SETC, SETA
+ Missing parameters (type --help for instrauctions).
+
+command> command> print_set SETC, SETD
+ Extraneous text after end of command (type --help for instrauctions).
+
+command> command> sub_set SETF, , SETD, SETA
+ Multiple consecutive commas (type --help for instrauctions).
+
+command> command> intersect_set SETF SETD SETA
+ Missing comma (type --help for instrauctions).
+
+command> command> symdiff_set, SETF, SETB, SETA
+ Illegal comma
+
+command> command> read_set , SETA, -1
+ Illegal comma
+
+command> command> read_set ,, SETA, -1
+ Illegal comma
+
+command> command> print_set , SETA
+ Illegal comma
+
+command> command> print_set SETA,
+ Extraneous text after end of command (type --help for instrauctions).
+
+command> command> print_set        SETA       ,
+ Extraneous text after end of command (type --help for instrauctions).
+
+command> command> read_set setA, 3, 6, 5, 4, 4, -1
+ Undefined set name 
+
+command> command> read_set SETA,5,4,,3,-1
+ Multiple consecutive commas (type --help for instrauctions).
+
+command> command> read_set SETA,5,4,3,
+ List of set members is not terminated correctly (type --help for instrauctions).
+
+command> command> read_set SETA,5,400,,3,-1
+ Invalid set member – value out of range (type --help for instrauctions).
+
+command> command> read_set SETA,,5,400,,3,-1
+ Multiple consecutive commas (type --help for instrauctions).
+
+command> command> read_set SETA5,
+ Undefined set name 
+
+command> command> read_set SETA,5,,,3,-1
+ Multiple consecutive commas (type --help for instrauctions).
+
+command> command> union_set SETA,,SETB,SETC
+ Multiple consecutive commas (type --help for instrauctions).
+
+command> command> read_set SETC,5,-10
+ Invalid set member – value out of range (type --help for instrauctions).
+
+command> command> read_set SETC,5 , , -10
+ Multiple consecutive commas (type --help for instrauctions).
+
+command> command> read_set SETC,5 , , -1
+ Multiple consecutive commas (type --help for instrauctions).
+
+command> command> do_it SETA, SETB, SETC
+ Undefined command name
+
+command> command> read_set SETA,5,-1
+
+command> command> UNION_set SETA, SETB, SETC
+ Undefined command name
+
+command> command> read_set SETB, 45, 567, 34, -1
+ Invalid set member – value out of range (type --help for instrauctions).
+
+command> command> read_set SETA, 45, 56, 45, 34
+ List of set members is not terminated correctly (type --help for instrauctions).
+
+command> command> read_set SETA, 45 ,-3, 2, 45, 34, -1
+ Invalid set member – value out of range (type --help for instrauctions).
+
+command> command> read_set SETA, 45, 2, xyz, 34, -1
+ Invalid set member – not an integer (type --help for instrauctions).
+
+command> command> read_set SETA, 45, 2, 24.0, 34, -1
+ Invalid set member – not an integer (type --help for instrauctions).
+
+command> command>  45, 2, 24.0, 34, -1
+
+ Reached EOF stopping the program

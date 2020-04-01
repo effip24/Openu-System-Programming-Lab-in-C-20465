@@ -1,0 +1,42 @@
+bad2.as:16: Missing operand
+bad2.as:17: Missing operand
+bad2.as:18: Missing operand
+bad2.as:20: invalid target operand (immediate)
+bad2.as:22: invalid target operand (immediate)
+bad2.as:23: invalid symbol (and is not an instruction name and not a valid label)
+bad2.as:23: undefined instruction name
+bad2.as:24: invalid symbol (jSr is not an instruction name and not a valid label)
+bad2.as:24: undefined instruction name
+bad2.as:25: invalid characters (,r2)
+bad2.as:26: invalid characters (r1,r3)
+bad2.as:29: invalid operand (incomplete immediate #)
+bad2.as:30: invalid characters (r3)
+bad2.as:31: label was already declared earlier
+bad2.as:33: invalid source operand (register direct)
+bad2.as:34: invalid source operand (immediate)
+bad2.as:35: invalid characters (Start)
+bad2.as:38: invalid characters (400)
+bad2.as:42: invalid characters (,3)
+bad2.as:43: invalid characters (,)
+bad2.as:44: invalid characters (#123)
+bad2.as:45: invalid characters (.4)
+bad2.as:46: invalid characters (--5)
+bad2.as:47: invalid label (cannot be an instruction name)
+bad2.as:48: invalid label (cannot be a register name)
+bad2.as:49: label was already declared earlier
+bad2.as:51: invalid label (non-alphabetic first character)
+bad2.as:52: lable X is ignored
+bad2.as:54: local label cannot be declared as external
+bad2.as:55: lable Y is ignored
+bad2.as:58: invalid symbol (DATA2 is not an instruction name and not a valid label)
+bad2.as:58: invalid characters (.data   4)
+bad2.as:59: invalid symbol (.DATA is not an instruction name and not a valid label)
+bad2.as:59: undefined directive (case sensitivity of directive name)
+bad2.as:59: undefined instruction name
+bad2.as:61: invalid characters (blabla is not a string)
+bad2.as:64: invalid label (too long)
+bad2.as:65: missing argument in directive
+bad2.as:66: missing argument in directive
+bad2.as:67: undefined directive
+bad2.as:67: undefined instruction name
+bad2.as:69: invalid characters (Next)
